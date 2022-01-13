@@ -3,7 +3,7 @@ export interface Product {
   price: number;
 }
 
-const products = [
+const products: Product[] = [
   {
     name: "Lectric eBike",
     price: 999,

@@ -3,7 +3,7 @@ export interface Mountain {
   height: number;
 }
 
-const mountains = [
+const mountains: Mountain[] = [
   {
     name: "Kilimanjaro",
     height: 19341,
